@@ -8,8 +8,8 @@ $rollingCurl->setCallback(function(\RollingCurl\Request $request, \RollingCurl\R
 	parse_str(parse_url($request->getUrl(), PHP_URL_QUERY), $params);
 	$email = urldecode($params["jembot"]);
 	$x = $request->getResponseText();
-	echo "[".$no."/".$total."]";
-	echo color()["LGRN"]." || LIVE:$live".color()["LR"]."|DIE:$die".color()["LR"]."|LOCKED:$locked".color()["WH"];
+	echo "[".$no."/".$total."] || ";
+	echo color()["LGRN"]."LIVE:$live".color()["LR"]."|DIE:$die".color()["LR"]."|LOCKED:$locked".color()["WH"];
 	echo " ||";
 if (strpos($x,'Your account information was entered incorrectly.')){
 	$die++;
