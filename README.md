@@ -1,4 +1,4 @@
-https://scid-service.com/<br><br>
+https://scid-service.com/<br>
 
 use <br>
 • insert your token in token.txt and save <br>
