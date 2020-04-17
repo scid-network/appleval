@@ -1,6 +1,7 @@
 https://scid-service.com/
 
 use <br>
+• download or clone script ( https://github.com/scid-network/appleval.git )<br>
 • insert your token in token.txt and save <br>
 • run script in command/cli/vps<br>
 • php check.php<br>
