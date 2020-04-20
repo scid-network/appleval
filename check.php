@@ -28,7 +28,7 @@ elseif (inStr($x,'This Apple ID has been locked for security reasons.')){
 }
 elseif (inStr($x,'503 Service Temporarily Unavailable')){
 	$unknown++;
-		file_put_contents("die.txt", $email.PHP_EOL, FILE_APPEND);
+		file_put_contents("503.txt", $email.PHP_EOL, FILE_APPEND);
 		echo color()["GRN"]." Web Respond 503".color()["WH"]." => ".$email ;
 }
 else{
